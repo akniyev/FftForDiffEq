@@ -27,8 +27,10 @@ namespace FFT
             
             var omega = new Complex(1, 0);
             
+            //Comment
             var even = new Complex[n / 2];
             var odd = new Complex[n / 2];
+            
             for (var i = 0; i < n / 2; i++)
             {
                 even[i] = array[2 * i];
@@ -140,7 +142,6 @@ namespace FFT
         {
             var n = a.Length;
 
-//            var expArray = new Complex[n];
 
 //            for (var k = 0; k < n; k++)
 //            {
